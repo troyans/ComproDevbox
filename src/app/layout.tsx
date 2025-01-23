@@ -3,7 +3,7 @@ import "./globals.css"
 import { Inter } from 'next/font/google'
 
 export const metadata: Metadata = {
-  title: "Compro - Professional Website Design",
+  title: "Devbox - Professional Website Design",
   description: "Tingkatkan reputasi bisnis anda dengan design website profesional",
 }
 

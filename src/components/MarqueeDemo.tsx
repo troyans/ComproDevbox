@@ -35,7 +35,7 @@ const ImageCard = ({ src }: { src: string }) => {
 
 export function MarqueeDemo() {
   return (
-    <div className="relative flex h-[700px] w-screen flex-col items-center justify-center overflow-hidden bg-background md:shadow-xl">
+    <div className="relative flex h-[700px] w-screen flex-col items-center justify-center overflow-hidden bg-background ">
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((src, index) => (
           <ImageCard key={index} src={src} />
