@@ -42,7 +42,7 @@ export default function PricingGrid() {
                     />
                   </svg>
                   <span className="text-base font-medium text-gray-900">
-                    Total 6 Halaman
+                    Total 8 Halaman
                   </span>
                 </li>
 
@@ -321,7 +321,7 @@ export default function PricingGrid() {
                     />
                   </svg>
                   <span className="text-base font-medium text-gray-900">
-                    Total 6 Halaman
+                    Total 15 Halaman
                   </span>
                 </li>
 
