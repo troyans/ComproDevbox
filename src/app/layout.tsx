@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Tingkatkan reputasi bisnis anda dengan design website profesional",
 }
 
-export const inter = Inter({
+const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
 })
