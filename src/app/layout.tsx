@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 import { Inter } from 'next/font/google'
 import Script from 'next/script'
+import { CSPostHogProvider } from "./provider"
 
 export const metadata: Metadata = {
   title: "Devbox - Professional Website Design",
@@ -38,7 +39,9 @@ export default function RootLayout({
         
 
       </head>
+      <CSPostHogProvider>
       <body className="font-sans antialiased">{children}</body>
+      </CSPostHogProvider>
     </html>
   )
 }
